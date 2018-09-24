@@ -24,8 +24,12 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
-  },
+   	"preferred-install": "dist",
+   	"platform":{
+   	  "php": "7.0",
+   	  "ext-gettext": "1.0"
+   	}
+   },
   "repositories": [
     {
       "type": "composer",
@@ -49,6 +53,7 @@
     "wpackagist-plugin/wordfence":"7.1.12"
   },
   "require-dev": {
+    "heroku/heroku-buildpack-php": "*",
     "squizlabs/php_codesniffer": "^3.0.2",
     "roave/security-advisories": "dev-master"
   },
