@@ -50,8 +50,12 @@
     "wpackagist-plugin/ocean-extra":"1.4.29",
     "wpackagist-plugin/wpforms-lite":"1.4.9",
     "wpackagist-plugin/sendgrid-email-delivery-simplified":"1.11.8",
-    "wpackagist-plugin/wordfence":"7.1.12"
-  },
+    "wpackagist-plugin/wordfence":"7.1.12",
+    "wpackagist-plugin/sticky-header-oceanwp":"1.0.5",
+    "wpackagist-plugin/elementor":"2.2.4",
+    "wpackagist-plugin/widgetkit-for-elementor":"1.2.0",
+    "wpackagist-plugin/fakerpress":"0.4.11"
+    },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*",
     "squizlabs/php_codesniffer": "^3.0.2",
