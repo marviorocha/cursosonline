@@ -1,14 +1,11 @@
 # Application
- 
+
 
 # WordPress
-web/wp
-web/.htaccess
-
+ 
 # Dotenv
-.env
-.env.*
-!.env.example
+
+
 
 # Composer
 /vendor
